@@ -1,0 +1,9 @@
+- yum: name={{php_packages}} enablerepo=remi-php72 state=latest
+  notify: restart apache
+
+- name: configure php.ini
+  template: src=php.ini dest=/etc/php.ini
+  notify: restart apache
+
+- name: Remove 15-xdebug.ini
+  file: path=/etc/php.d/15-xdebug.ini state=absent

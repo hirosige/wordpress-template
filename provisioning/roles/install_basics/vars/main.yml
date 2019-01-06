@@ -1,0 +1,8 @@
+---
+ basic_packages: [
+   "vim",
+   "git",
+   "svn",
+   "epel-release",
+   "unzip"
+ ]

@@ -1,0 +1,2 @@
+- name: install webtatic repository
+  yum: name="{{postgresql_url}}"

@@ -1,0 +1,18 @@
+- name: get composer
+  get_url: url=https://getcomposer.org/installer  dest=/tmp/composer-setup.php
+
+- name: install composer
+  shell: chdir=/tmp php composer-setup.php
+
+- name: move composer.phar
+  shell: mv /tmp/composer.phar /usr/local/bin/composer
+
+- name: add privileges
+  file:
+    path: /usr/local/bin/composer
+    mode: "+x"
+
+- name: composer install in work dir
+  composer:
+    command: install
+    working_dir: /vagrant

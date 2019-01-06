@@ -1,0 +1,11 @@
+---
+- hosts:  all
+  become: yes
+
+  roles:
+  - { role: init                   }
+  - { role: repo_remi              }
+  - { role: install_basics         }
+  - { role: setup_httpd246         }
+  - { role: setup_php72            }
+  - { role: composer               }
