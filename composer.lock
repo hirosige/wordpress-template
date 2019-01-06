@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0c0c4511fc1f5f5ef419b31099c30d57",
+    "content-hash": "9c49f88ee82a8032dfd88585512609f3",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3851,26 +3851,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
-        },
-        {
-            "name": "wpackagist-plugin/woo-gutenberg-products-block",
-            "version": "1.2.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/woo-gutenberg-products-block/",
-                "reference": "tags/1.2.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-gutenberg-products-block.1.2.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/woo-gutenberg-products-block/"
         },
         {
             "name": "wpackagist-plugin/wordfence",
