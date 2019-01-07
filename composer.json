@@ -47,7 +47,17 @@
 	"humanmade/s3-uploads": "2.0.0-beta3",
 	"wpackagist-plugin/debug-bar": "0.9",
 	"ext-gd": "*",
-	"wpackagist-theme/newspaperss": "*"
+	"wpackagist-theme/newspaperss": "*",
+	"wpackagist-theme/siteorigin-unwind": "*",
+	"wpackagist-theme/fukasawa": "*",
+	"wpackagist-theme/oblique": "*",
+	"wpackagist-theme/yuuta": "*",
+	"wpackagist-theme/zillah": "*",
+	"wpackagist-theme/ascend": "*",
+	"wpackagist-theme/marlin-lite": "*",
+	"wpackagist-theme/sela": "*",
+	"wpackagist-theme/greatmag": "*",
+	"wpackagist-theme/anima": "*"
   },
   "require-dev": {
 	"heroku/heroku-buildpack-php": "*",
@@ -77,7 +87,17 @@
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme",
-		"wpackagist-theme/newspaperss"
+		"wpackagist-theme/newspaperss",
+		"wpackagist-theme/siteorigin-unwind",
+		"wpackagist-theme/fukasawa",
+		"wpackagist-theme/oblique",
+		"wpackagist-theme/yuuta",
+		"wpackagist-theme/zillah",
+		"wpackagist-theme/ascend",
+		"wpackagist-theme/marlin-lite",
+		"wpackagist-theme/sela",
+		"wpackagist-theme/greatmag",
+		"wpackagist-theme/anima"
 	  ]
 	},
 	"dropin-paths": {

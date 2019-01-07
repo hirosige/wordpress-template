@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb832b1c6bc91efbc919f15797ef4b6e",
+    "content-hash": "f06391a061d3878f4b7dd34845641427",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3893,6 +3893,106 @@
             "homepage": "https://wordpress.org/plugins/wp-multibyte-patch/"
         },
         {
+            "name": "wpackagist-theme/anima",
+            "version": "1.3.0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/anima/",
+                "reference": "1.3.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/anima.1.3.0.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/anima/"
+        },
+        {
+            "name": "wpackagist-theme/ascend",
+            "version": "1.3.7",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/ascend/",
+                "reference": "1.3.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/ascend.1.3.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/ascend/"
+        },
+        {
+            "name": "wpackagist-theme/fukasawa",
+            "version": "1.21",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/fukasawa/",
+                "reference": "1.21"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/fukasawa.1.21.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/fukasawa/"
+        },
+        {
+            "name": "wpackagist-theme/greatmag",
+            "version": "1.07",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/greatmag/",
+                "reference": "1.07"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/greatmag.1.07.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/greatmag/"
+        },
+        {
+            "name": "wpackagist-theme/marlin-lite",
+            "version": "1.0.7",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/marlin-lite/",
+                "reference": "1.0.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/marlin-lite.1.0.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/marlin-lite/"
+        },
+        {
             "name": "wpackagist-theme/newspaperss",
             "version": "1.2.0",
             "source": {
@@ -3911,6 +4011,106 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/newspaperss/"
+        },
+        {
+            "name": "wpackagist-theme/oblique",
+            "version": "2.0.18",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/oblique/",
+                "reference": "2.0.18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/oblique.2.0.18.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/oblique/"
+        },
+        {
+            "name": "wpackagist-theme/sela",
+            "version": "1.0.17",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/sela/",
+                "reference": "1.0.17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/sela.1.0.17.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/sela/"
+        },
+        {
+            "name": "wpackagist-theme/siteorigin-unwind",
+            "version": "1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/siteorigin-unwind/",
+                "reference": "1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/siteorigin-unwind.1.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/siteorigin-unwind/"
+        },
+        {
+            "name": "wpackagist-theme/yuuta",
+            "version": "1.6.3",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/yuuta/",
+                "reference": "1.6.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/yuuta.1.6.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/yuuta/"
+        },
+        {
+            "name": "wpackagist-theme/zillah",
+            "version": "1.1.8",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/zillah/",
+                "reference": "1.1.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/zillah.1.1.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/zillah/"
         }
     ],
     "packages-dev": [
