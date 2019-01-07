@@ -46,7 +46,8 @@
 	"predis/predis": "1.1.1",
 	"humanmade/s3-uploads": "2.0.0-beta3",
 	"wpackagist-plugin/debug-bar": "0.9",
-	"ext-gd": "*"
+	"ext-gd": "*",
+	"wpackagist-theme/newspaperss": "*"
   },
   "require-dev": {
 	"heroku/heroku-buildpack-php": "*",
@@ -75,7 +76,8 @@
 			"wpackagist-plugin/wp-multibyte-patch"
 	  ],
 	  "web/app/themes/{$name}/": [
-		"type:wordpress-theme"
+		"type:wordpress-theme",
+		"wpackagist-theme/newspaperss"
 	  ]
 	},
 	"dropin-paths": {
