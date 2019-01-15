@@ -41,6 +41,12 @@
 	"wpackagist-plugin/akismet": "*",
 	"wpackagist-plugin/addquicktag": "*",
 	"wpackagist-plugin/wp-multibyte-patch": "*",
+	"wpackagist-plugin/wordpress-23-related-posts-plugin": "*",
+	"wpackagist-plugin/wp-fastest-cache": "*",
+	"wpackagist-plugin/table-of-contents-plus": "*",
+	"wpackagist-plugin/crayon-syntax-highlighter": "*",
+	"wpackagist-plugin/cf-7-gutenberg": "*",
+	"wpackagist-plugin/flamingo": "*",
 	"frc/batcache": "1.3-a2",
 	"wpackagist-plugin/redis-cache": "1.3.5",
 	"predis/predis": "1.1.1",
@@ -83,7 +89,13 @@
 			"wpackagist-plugin/pushpress",
 			"wpackagist-plugin/akismet",
 			"wpackagist-plugin/addquicktag",
-			"wpackagist-plugin/wp-multibyte-patch"
+			"wpackagist-plugin/wp-multibyte-patch",
+			"wpackagist-plugin/wordpress-23-related-posts-plugin",
+			"wpackagist-plugin/wp-fastest-cache",
+			"wpackagist-plugin/table-of-contents-plus",
+			"wpackagist-plugin/crayon-syntax-highlighter",
+			"wpackagist-plugin/cf-7-gutenberg",
+			"wpackagist-plugin/flamingo"
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme",
